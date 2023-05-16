@@ -22,7 +22,7 @@ const (
 	firmwareNotesExtension       = ".md"
 	firmwarePrefix               = "FrSkyOSD-v"
 	firmwareVersionDateSeparator = "_"
-	firmwareSourceURL            = "https://github.com/FrSkyRC/PixelOSD/firmware"
+	firmwareSourceURL            = "https://github.com/sl1pkn07/PixelOSD/firmware"
 )
 
 var (

@@ -9,7 +9,7 @@ import (
 
 func TestFirmware(t *testing.T) {
 	f1 := &Firmware{
-		URL: "https://github.com/FrSkyRC/PixelOSD/blob/master/firmware/FrSkyOSD-v1.0.0_20191025.bin",
+		URL: "https://github.com/sl1pkn07/PixelOSD/blob/master/firmware/FrSkyOSD-v1.0.0_20191025.bin",
 	}
 
 	name1, err := f1.VersionName()
@@ -25,7 +25,7 @@ func TestFirmware(t *testing.T) {
 	assert.Equal(t, date1, time.Date(2019, 10, 25, 0, 0, 0, 0, time.UTC))
 
 	f2 := &Firmware{
-		URL: "https://github.com/FrSkyRC/PixelOSD/blob/master/firmware/FrSkyOSD-v1.99.0_20200615.bin",
+		URL: "https://github.com/sl1pkn07/PixelOSD/blob/master/firmware/FrSkyOSD-v1.99.0_20200615.bin",
 	}
 
 	name2, err := f2.VersionName()
